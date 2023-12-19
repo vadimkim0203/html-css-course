@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pic-name, .buttons {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pic-name {
+  margin-left: 30px;
+}
+
+.buttons {
+  margin-right: 30px;
+}
+
+.image {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.kanye-image {
+  border-radius: 50px;
+}
+
+.name {
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+
+
+}
+
+.buttons {
+  width: 280px;
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friend-button {
+  width: 130px;
+  height: 50px;
+  font-size: 19px;
+  color:white;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.friend-button:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+
+}
+.friend-button:active {
+  opacity: 0.7;
+}
+
+.message-button {
+  width: 130px;
+  height: 50px;
+  font-size: 19px;
+  color: black;
+  background-color: rgb(192, 192, 192);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.message-button:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.message-button:active {
+  opacity: 0.7;
+
+}
+
+

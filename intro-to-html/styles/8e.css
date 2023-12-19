@@ -1,0 +1,65 @@
+.title {
+  font-family: Arial;
+  font-size: 35px;
+}
+
+.pickup {
+  height: 50px;
+  width: 350px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(232, 229, 229);
+  border-radius: 2px;
+  border: none;
+}
+
+.destination {
+  height: 50px;
+  width: 350px;
+  background-color: rgb(232, 229, 229);
+  border-radius: 2px;
+  border: none;
+
+}
+.pickup::placeholder {
+  color: rgb(115, 113, 113);
+}
+
+.destination::placeholder {
+  color: rgb(115, 113, 113);
+}
+
+.now {
+  margin-top: 30px;
+  height: 45px;
+  width: 130px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.now:hover {
+  opacity: 0.8;
+}
+
+.now:active {
+  opacity: 0.6;
+}
+
+.later {
+  height: 45px;
+  width: 150px;
+  background-color: rgb(232, 229, 229);
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.later:hover {
+  opacity: 0.8;
+}
+
+.later:active {
+  opacity: 0.6;
+}
+

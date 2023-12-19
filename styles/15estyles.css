@@ -1,0 +1,58 @@
+body {
+  height: 5000px;
+
+}
+
+
+
+.ald-box {
+  position: relative;
+  display: flex;
+  width: 350px;
+  height: 500px;
+}
+
+.ald-pic {
+  height: 100%;
+  width: 100%;
+
+  
+
+}
+
+.sale {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  position: absolute;
+  padding: 5px 3px;
+  background-color: rgb(198, 64, 2);
+  border-radius: 2px;
+  top: 5px;
+  right: 3px;
+
+
+}
+
+.bottom-overlay {
+  width:350px;
+  height: 100px;
+  background-color: gray;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+
+}
+.add-to-cart-button {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 5px;
+
+ 
+ 
+
+
+}
