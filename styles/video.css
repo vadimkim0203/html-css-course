@@ -70,3 +70,15 @@
   
 
 }
+.video-link,
+.channel-link {
+  text-decoration: none;
+  color: black;
+
+}
+
+.video-link:visited,
+.channel-link:visited {
+  color: black;
+
+}
